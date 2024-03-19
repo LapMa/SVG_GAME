@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Exo+2:wght@300&family=Julius+Sans+One&family=Titillium+Web:wght@300&family=Work+Sans&display=swap');
+
+body{
+    background-color: rgb(236, 236, 236);
+    display: block;
+}
+.navbar{
+    min-height: 30px;
+    background-color: #b4b4b4;
+}
+.pontok, .ido, .nev, .gombok{
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 2.1rem;
+    margin: 1.1%;
+}.pontok{
+    margin-left: 5%;
+}
+.ido{
+    padding: 2%;
+    width: 13%;
+    text-align: center;
+    border-radius: 25px;
+    background-color:rgb(65, 65, 65);
+}
+.ido input{
+    font-size: 15px;
+}
+.gombok input{
+    width: 175%;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    background-color:rgb(65, 65, 65);
+    color: #fff;
+}
+.gombok{
+    margin-right: 10%;
+}
+.gombok input:hover{
+    background-color:rgb(218, 217, 217);
+}
+.gombok input:last-child{
+    margin-top: 3%;
+
+}
+.pontok .nev{
+    text-align: center;
+}
+.nev input{
+    border-radius: 15px;
+    background-color:rgb(65, 65, 65);
+    color: #fff;
+    border: none;
+}
+.stopper_button{
+    width: 30%;
+    padding: 3%;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+.stopper_button:hover{
+    background-color: #b4b4b4;
+}
+.stopper_button input{
+    font-size: 30px;
+    
+}
